@@ -1,0 +1,117 @@
+.houses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+}
+.houses__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.houses__btn {
+    color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 32px;
+    background: #E7E8E3;
+    border-color:#E7E8E3;
+    box-shadow:none;
+    padding: 4px 12px;
+    border:none;
+}
+.houses__title {
+    color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-top: 21px;
+    margin-bottom: 82px;
+}
+.houses__content {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.houses__card {
+    padding: 24px;
+    border-radius: 15px;
+    border: 2px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.houses__title-sub {
+    color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+.houses__price {
+    color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+.houses__description-sub {
+    gap: 10px;
+    color: #65665C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.houses__conditions {
+    margin-right: 10px;
+}
+.houses__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80.14px;
+}
+.houses__btn-1{
+    border-radius: 6px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 13px 25px;
+}
+.houses__btn-2{
+    background:none;
+    color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 130px;
+    height: 40px;
+    border:0;
+}

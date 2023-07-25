@@ -1,0 +1,47 @@
+.fam {
+    margin-top: 128px;
+}
+.fam__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;   
+    padding: 98px 257px;
+    border-radius: 24px;
+    background: #65665C;
+}
+.fam__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-top: 13px;
+}
+.fam__description {
+    color: #E7E8E3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 29px;
+    min-width: 765px;
+}
+.fam__btn {color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 6px;
+    border: 1px solid #CF6F49;
+    background: #CF6F49;
+    padding: 13px 25px;
+    margin-top: 21px;
+}

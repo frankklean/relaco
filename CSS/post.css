@@ -1,0 +1,133 @@
+.post {
+    margin-top: 288px;
+}
+.post__top {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.post__btn-blog {
+    color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 32px;
+    background: #E7E8E3;
+    padding: 4px 12px;
+}
+.post__title {
+    color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-top: 25px;
+}
+.post__view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 460px;
+}
+.post__description {
+    color: #65665C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;;
+    max-width: 710px;
+    margin-top: 29px;
+}
+.post__btn-view {color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 6px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    padding: 13px 25px;
+}
+.post__content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 34px;
+}
+.post__card {    
+    border-radius: 20px;
+    border-color: white;
+    border:1px solid gray;
+}
+.post__card img {
+    border-radius: 20px;
+}
+.post__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 350px;
+    padding: 24px;
+}
+.post__data {
+    display: flex;
+    gap: 16px;
+}
+.post__btn-card {color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 32px;
+    background: #FAE8E1;
+    padding: 4px 8px;
+}
+.post__title-sup {color: #65665C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.post__title-sub {
+    color: #2A2C1F;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-top: 16px;
+}
+.post__description-sub {
+    color: #65665C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 9px;
+    max-width: 325px;
+}
+.post__link {
+    color: #2A2C1F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    gap: 4px;
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+}
